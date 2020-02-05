@@ -1,0 +1,16 @@
+def sum(n):
+    if n == 1:
+        return 1
+    if n == 2:
+        return 2
+    if n == 3:
+        return 4
+    else:
+        return sum(n-3) + sum(n-2) + sum(n-1)
+
+
+testcase = int(input())
+
+for num in range(testcase):
+    answer = sum(int(input()))
+    print(answer)
