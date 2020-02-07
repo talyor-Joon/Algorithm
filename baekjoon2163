@@ -1,0 +1,16 @@
+
+
+
+
+
+# easyway
+
+# testcase = int(input())
+
+# for x in range(testcase) :
+#     n = int(input())
+#     m = int(input())
+#     answer = ((n*m)-1)
+#     print(answer)
+
+
